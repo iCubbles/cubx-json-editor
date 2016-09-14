@@ -1,0 +1,46 @@
+{
+    "name": "cubx-json-editor-0.7.25",
+    "groupId": "",
+    "version": "1.1.1",
+    "modelVersion": "9.1.0",
+    "docType": "webpackage",
+    "author": {
+        "name": "Edwin Gamboa",
+        "email": "edwin.gamboa@incowia.com"
+    },
+    "contributors": [
+        {
+            "name": "Judit Ross",
+            "email": "judit.ross@incowia.com"
+        }
+    ],
+    "homepage": "https://github.com/cubbles/cubx-json-editor",
+    "license": "MIT",
+    "keywords": [
+        "library",
+        "json-editor",
+        "cubx-json-editor",
+        "3rd-party"
+    ],
+    "man": [],
+    "artifacts": {
+        "utilities": [
+            {
+                "artifactId": "cubx-json-editor",
+                "description": "For cubbles platform modificated json-editor (version 0.7.21)",
+                "resources": [
+                    {
+                        "prod": "cubx-json-editor.min.html",
+                        "dev": "cubx-json-editor.html"
+                    }
+                ],
+                "dependencies": [
+                    {
+                        "webpackageId": "bootstrap-3.3.5@1.1.0",
+                        "artifactId": "bootstrap"
+                    }
+                ]
+            }
+        ]
+    }
+}
