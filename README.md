@@ -1,4 +1,7 @@
 ## cubx-json-editor
 
 <hr/>
-Note This page is generated based on the markdown-syntax. For details see <http://daringfireball.net/projects/markdown/syntax/>
+For cubbles modificated json-editor.
+
+    JSON Schema Based Editor (version 0.7.21)
+    See: [json-editor](https://github.com/jdorn/json-editor)
