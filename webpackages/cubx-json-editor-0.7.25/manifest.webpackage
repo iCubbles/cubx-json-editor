@@ -1,7 +1,7 @@
 {
     "name": "cubx-json-editor-0.7.25",
     "groupId": "",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "modelVersion": "9.1.0",
     "docType": "webpackage",
     "author": {
@@ -29,15 +29,19 @@
                 "artifactId": "cubx-json-editor",
                 "description": "For cubbles platform modificated json-editor (version 0.7.21)",
                 "resources": [
-                    {
-                        "prod": "cubx-json-editor.min.html",
-                        "dev": "cubx-json-editor.html"
-                    }
+                  {
+                    "prod": "cubx-json-editor.min.html",
+                    "dev": "cubx-json-editor.html"
+                  }
                 ],
                 "dependencies": [
                     {
                         "webpackageId": "bootstrap-3.3.5@1.1.0",
                         "artifactId": "bootstrap"
+                    },
+                    {
+                        "webpackageId": "highlightjs-9.3.0@1.1.0",
+                        "artifactId": "highlightjs-github-gist"
                     }
                 ]
             }
