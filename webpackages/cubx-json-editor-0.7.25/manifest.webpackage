@@ -1,8 +1,8 @@
 {
     "name": "cubx-json-editor-0.7.25",
     "groupId": "",
-    "version": "1.2.0",
-    "modelVersion": "9.1.0",
+    "version": "2.0.0",
+    "modelVersion": "10.0.0",
     "docType": "webpackage",
     "author": {
         "name": "Edwin Gamboa",
@@ -36,11 +36,11 @@
                 ],
                 "dependencies": [
                     {
-                        "webpackageId": "bootstrap-3.3.5@1.4.0",
+                        "webpackageId": "bootstrap-3.3.5@2.0.1",
                         "artifactId": "bootstrap"
                     },
                     {
-                        "webpackageId": "highlightjs-9.3.0@1.1.0",
+                        "webpackageId": "highlightjs-9.3.0@2.0.0",
                         "artifactId": "highlightjs-github-gist"
                     }
                 ]
